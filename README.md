@@ -1,0 +1,1 @@
+# Tensor-CA  : A high-performance cellular automata model for multiple land use simulation based on vectorization and GPU
