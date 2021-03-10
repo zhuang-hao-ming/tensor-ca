@@ -366,10 +366,10 @@ def main(begin_img_path='../data/2000.tif', p_path='../data/p.tif', number_of_it
 if __name__ == '__main__':
 
     main(
-        begin_img_path='./data/2000_4cls.tif',
-        p_path='./data/p.tif',
+        begin_img_path='./data_of_resolution/data_raw_30/2000_30.tif',
+        p_path='./data_of_resolution/data_raw_30/p_30.tif',
         number_of_iter=1,
         goal_list=cp.array([13837548,33352983,4463947,8207920]),
-        out_filename='./output/result_{}.tif'.format(datetime.datetime.now().strftime('%Y%m%d%H%M%S')),
-        dst_filename='./data/2000_4cls.tif',
+        out_filename='./result_{}.tif'.format(datetime.datetime.now().strftime('%Y%m%d%H%M%S')),
+        dst_filename='./data_of_resolution/data_raw_30/2000_30.tif',
         neighrbour_radius=3)
